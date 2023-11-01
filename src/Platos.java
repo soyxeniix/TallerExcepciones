@@ -3,9 +3,12 @@ public class Platos {
     String nombre;
     String descripcion;
     int costo;
-    int tiempoPre;
+    short tiempoPre;
     Tipo tipo;
-    public Platos(String nombre, String descripcion, int costo, int tiempoPre, Tipo tipo) {
+    
+    
+
+    public Platos(String nombre, String descripcion, int costo, short tiempoPre, Tipo tipo) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.costo = costo;
@@ -33,7 +36,7 @@ public class Platos {
     public int getTiempoPre() {
         return tiempoPre;
     }
-    public void setTiempoPre(int tiempoPre) {
+    public void setTiempoPre(short tiempoPre) {
         this.tiempoPre = tiempoPre;
     }
     public Tipo getTipo() {
